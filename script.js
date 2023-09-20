@@ -1,6 +1,11 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+// mostrando o ano atual
+const dataNow = new Date();
+const yearNow = dataNow.getFullYear();
+document.getElementById('year').innerText = yearNow;
+
 function addGoal() {
     if(inputBox.value === '') {
         alert("Você precisa escrever algum objetivo!");
