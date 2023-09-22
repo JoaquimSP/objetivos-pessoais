@@ -4,7 +4,7 @@ const listContainer = document.getElementById("list-container");
 // mostrando o ano atual
 const dataNow = new Date();
 const yearNow = dataNow.getFullYear();
-document.getElementById('year').innerText = yearNow;
+document.getElementById('year').innerHTML = yearNow;
 
 function addGoal() {
     if(inputBox.value === '') {
