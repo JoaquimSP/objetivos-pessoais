@@ -123,6 +123,7 @@ ul li span:hover {
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
@@ -131,7 +132,7 @@ ul li span:hover {
 }
 
 .slides img {
-    width: 400px;
+    width: 350px; /* 400 */
     /*padding: 50px;*/
     margin: 30px;
 }
@@ -144,6 +145,7 @@ ul li span:hover {
 
 .slide2 {
     background: linear-gradient(135deg, #92E3A9, #17582a);
+    /* flex-wrap: wrap; */
 }
 
 .slide2 p {
@@ -154,8 +156,23 @@ ul li span:hover {
 
 .slide3 {
     background: linear-gradient(135deg, #92E3A9, #17582a);
+    /* flex-wrap: wrap; */
 }
 
 .slide3 p {
     margin: 10px;
+}
+
+/* --- Items --- */
+
+.item-1 {
+   
+}
+
+.item-2 {
+  
+}
+
+.item-3 {
+
 }
